@@ -1,0 +1,12 @@
+.main-nav {
+    a {
+        margin: 0 0.25rem;
+        padding: 0.25rem 0.5rem;
+        position: relative;
+        transition: color 300ms;
+        &:hover {
+            color: $line-color;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@import "vars";
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: $font-size;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    background: url("/images/bg.jpg") repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+p {
+    margin: 0 0 $line-height 0;
+}
+canvas {
+    height: 600px;
+    width: 100%;
+}
+
+@import "modules/paper";
+@import "modules/nav";
